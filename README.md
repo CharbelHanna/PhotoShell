@@ -60,7 +60,7 @@ Rename-Photos -Path "C:\Pictures\2025" -Pattern "{DateTaken}_{Location}_{Index}"
 # Add a simple frame (planned feature)
 Add-PhotoFrame -Path "C:\Pictures\2025" -Style "Polaroid" -Color "White"
 
-🧠 Requirements
+## 🧠 Requirements
 
 * PowerShell 7.0+
 
@@ -68,7 +68,7 @@ Add-PhotoFrame -Path "C:\Pictures\2025" -Style "Polaroid" -Color "White"
 
 * exiftool
 
-🛠️ Contributing
+## 🛠️ Contributing
 
 Contributions are welcome!
 If you’d like to suggest features, fix bugs, or improve documentation:
@@ -79,6 +79,6 @@ If you’d like to suggest features, fix bugs, or improve documentation:
 
 3. Submit a pull request
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License — feel free to use and adapt it.
