@@ -56,14 +56,7 @@ Import-Module .\PhotoShell.psd1
 ```powershell
 # Import all photos from a folder
 
-Import-Photos -Source "D:\DCIM" -Destination "C:\Pictures\2025"
-
-# Rename using EXIF data (e.g., 2025-06-15_Paris_001.jpg)
-Rename-Photos -Path "C:\Pictures\2025" -Pattern "{DateTaken}_{Location}_{Index}"
-
-# Add a simple frame (planned feature)
-Add-PhotoFrame -Path "C:\Pictures\2025" -Style "Polaroid" -Color "White"
-```
+Import-Photos -Source "D:\DCIM" -Destination "C:\Pictures\"
 
 ## 🧠 Requirements
 
