@@ -109,7 +109,6 @@ function Import-photos {
 }
 # main script
 try {
-        
     Import-photos -InputPath $Source -BaseDestination $Destination
 } 
 catch {
