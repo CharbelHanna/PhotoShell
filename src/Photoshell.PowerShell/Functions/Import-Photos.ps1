@@ -31,8 +31,7 @@ param (
 [array]$TotalFolders
 [array]$Totalcopies
 $records = [System.Collections.ArrayList]@()
-[array]$alllogs
-$properties = @{}
+[array]$alllogs = @()
 $LogFileName = "log_$((Get-Date).ToString("ddMMyyyy_HHmmss")).csv"
 $copyresultsLogFileName = "CopyResults_$((Get-Date).ToString("ddMMyyyy_HHmmss")).log"
 $LogFilePath = if ($LogFilePath) { $LogFilePath } else { $PSScriptRoot }
